@@ -5,7 +5,7 @@
 -- 2. Execute the following scripts below: 
 --
 alter table account_incometarget add CONSTRAINT `fk_account_incometarget_itemid` 
-	FOREIGN KEY (`itemid`) REFERENCES `account` (`objid`)
+   FOREIGN KEY (`itemid`) REFERENCES `account` (`objid`)
 ;
 
 
@@ -54,7 +54,7 @@ CREATE TABLE `entity_mapping` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 ; 
 
-
+/*
 CREATE TABLE `government_property` ( 
    `objid` varchar(50) NOT NULL, 
    `name` varchar(255) NOT NULL, 
@@ -68,7 +68,7 @@ CREATE TABLE `government_property` (
    KEY `ix_name` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 ; 
-
+*/
 
 CREATE UNIQUE INDEX `uix_acctid_tag` ON itemaccount_tag (`acctid`,`tag`)
 ;
