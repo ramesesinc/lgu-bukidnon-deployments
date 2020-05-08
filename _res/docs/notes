@@ -4,7 +4,7 @@ User:
 Pass: 
 
 [Portainer]
-URL  : http://localhost:9000
+URL  : http://YOUR_DOCKER_SERVER_IP:9000
 User : admin
 Pass : p@ssw0rd
 
@@ -14,6 +14,7 @@ git clone https://github.com/ramesesinc/lgu-bukidnon-province-deployments.git
 
 [DockerHub]
 sudo docker pull nginx:latest
+sudo docker pull ramesesinc/node-download-server:0.0.1
 sudo docker pull ramesesinc/notification-server:1.0
 sudo docker pull ramesesinc/mail-server:latest
 sudo docker pull ramesesinc/queue-server:255.02.002
