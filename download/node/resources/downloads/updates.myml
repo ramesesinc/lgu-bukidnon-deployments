@@ -24,7 +24,7 @@ app:
     - { order: 102, version: 2.50, file: "modules/core/osiris2-draw.jar" }
     - { order: 103, version: 2.50, file: "modules/core/osiris2-framework.jar" }
     - { order: 104, version: 2.50, file: "modules/core/osiris2-report.jar" }
-    - { order: 105, version: 2.50, file: "modules/core/rameses-client-ui.jar" }
+    - { order: 105, version: 2.51, file: "modules/core/rameses-client-ui.jar" }
     - { order: 106, version: 2.50, file: "modules/core/rameses-client-ui-bio.jar" }
     - { order: 107, version: 2.50, file: "modules/core/rameses-client-ui-jfx.jar" }
     - { order: 108, version: 2.50, file: "modules/core/rameses-client-notification-socketio.jar" }
@@ -57,8 +57,8 @@ app:
     # treasury
     - { order: 220, version: 2.50, file: "modules/treasury/rameses-treasury-common.jar" }
     - { order: 221, version: 2.50, file: "modules/treasury/rameses-gov-depositslip.jar" }
-    - { order: 222, version: 2.50, file: "modules/treasury/rameses-gov-treasury.jar" }
-    - { order: 223, version: 2.50, file: "modules/treasury/rameses-gov-treasury-report.jar" }
+    - { order: 222, version: 2.51, file: "modules/treasury/rameses-gov-treasury.jar" }
+    - { order: 223, version: 2.51, file: "modules/treasury/rameses-gov-treasury-report.jar" }
     - { order: 224, version: 2.50, file: "modules/treasury/rameses-gov-treasury-tool.jar" }
     # epayment
     - { order: 230, version: 2.50, file: "modules/epayment/rameses-gov-epayment.jar" }
