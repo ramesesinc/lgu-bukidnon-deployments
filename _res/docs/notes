@@ -3,14 +3,21 @@ IP  :
 User: 
 Pass: 
 
+
 [Portainer]
-URL  : http://YOUR_DOCKER_SERVER_IP:9000
+URL  : http://SERVER_IP:9000
 User : admin
 Pass : p@ssw0rd
 
 
 [GitHub]
-git clone https://github.com/ramesesinc/lgu-bukidnon-province-deployments.git
+git clone https://github.com/ramesesinc/lgu-bukidnon-deployments.git
+
+
+[DB Patch]
+From v2.5.5_20200606_001.patch.etracs 
+To   v255_20210131.patch
+
 
 [DockerHub]
 sudo docker pull nginx:latest
